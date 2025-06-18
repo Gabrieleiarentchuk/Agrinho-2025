@@ -1,0 +1,13 @@
+:root{
+    --cor-de-fundo:#00060caf;
+    --azul:#0f4167;
+    --branco:#eff4fa;
+    --texto-fundo:#081f35;
+    --fonte: 'Cascadia Code';
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: var(--fonte);
+}

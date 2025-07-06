@@ -11,3 +11,8 @@ body{
     color: var(--branco);
     font-family: var(--fonte);
 }
+.image-container {
+    display: grid;
+    grid-template-columns: 1fr ;
+} 
+    

@@ -15,4 +15,8 @@ body{
     display: grid;
     grid-template-columns: 1fr ;
 } 
-    
+.imagem-redimensionada {
+    width: 50%;
+    height: auto;
+    width: 300px;
+}

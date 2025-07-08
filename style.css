@@ -9,14 +9,25 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: var(--fonte);
+    font-family: var(--fonte)
 }
-.image-container {
-    display: grid;
-    grid-template-columns: 1fr ;
-} 
-.imagem-redimensionada {
-    width: 50%;
-    height: auto;
-    width: 300px;
+  .image-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+  .image-item {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+  .image-caption {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+  img {
+  width: 200px;
+  height: auto;
 }

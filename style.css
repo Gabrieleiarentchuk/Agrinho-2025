@@ -31,3 +31,46 @@ body{
   width: 200px;
   height: auto;
 }
+  body {
+  margin: 0;
+  background-size: cover;
+  color: white;
+}
+
+  .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+  .titulo-destaque {
+  background-color: rgba(34, 139, 34, 0.8);
+  padding: 2rem 3rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #000;
+  max-width: 600px;
+}
+
+  .titulo-destaque h1 {
+font-size: 3rem;
+margin: 0;
+text-shadow: 2px 2px 5px #000;
+}
+
+  .titulo-destaque p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+@media (max-width: 600px) {
+      .titulo-destaque h1 {
+        font-size: 2rem;
+      }
+
+      .titulo-destaque {
+        padding: 1.5rem 2rem;
+      }
+    }
